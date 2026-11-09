@@ -600,7 +600,7 @@ function(ios_bundle iosStoryBoard assets plist name version)
     set(IOS_ASSETS ${assets})
     set_target_properties(${PROJECT_NAME} PROPERTIES
             XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY "${IOS_CODE_SIGN_IDENTITY}"
-            XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED YES
+            XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED "${IOS_CODE_SIGNING_ENABLED}"
             XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED "${IOS_CODE_SIGNING_ENABLED}"
             BUNDLE TRUE
             MACOSX_BUNDLE_INFO_PLIST ${plist}
