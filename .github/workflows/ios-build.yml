@@ -10,6 +10,10 @@ on:
 permissions:
   contents: read
 
+env:
+  CMAKE_POLICY_VERSION_MINIMUM: "3.5"
+  VCPKG_KEEP_ENV_VARS: CMAKE_POLICY_VERSION_MINIMUM
+
 jobs:
   build-ios:
     name: Build iOS (Unsigned)

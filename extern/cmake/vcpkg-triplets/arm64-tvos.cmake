@@ -7,3 +7,8 @@ set(Z_VCPKG_TARGET_TRIPLET_PLAT tvos)
 
 set(VCPKG_CHAINLOAD_TOOLCHAIN_FILE "${CMAKE_CURRENT_LIST_DIR}/../../vcpkg/scripts/toolchains/tvos.cmake")
 set(VCPKG_DEP_INFO_OVERRIDE_VARS tvos)
+
+# Pinned vcpkg ports (e.g. mbedTLS 2.28.8) declare cmake_minimum_required < 3.5,
+# which CMake 4+ rejects.
+list(APPEND VCPKG_CMAKE_CONFIGURE_OPTIONS
+    "-DCMAKE_POLICY_VERSION_MINIMUM=3.5")
