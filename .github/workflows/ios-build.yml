@@ -64,10 +64,22 @@ jobs:
           brew install cmake ninja pkg-config nasm autoconf automake libtool || true
           nasm -v
 
-      - name: Build libromfs generator
+      - name: Build libromfs generator (host / macOS)
         run: |
-          chmod +x build_libromfs_generator.sh
-          ./build_libromfs_generator.sh
+          # The generator must run on the CI machine while building. It has to be
+          # compiled for macOS, NOT for iOS, otherwise the Xcode build produces an
+          # iOS .app that cannot be executed ("No such file or directory").
+          set -euo pipefail
+          cmake -S extern/borealis/library/lib/extern/libromfs/generator \
+            -B build_libromfs_generator \
+            -G Ninja \
+            -DCMAKE_BUILD_TYPE=Release \
+            -DCMAKE_OSX_SYSROOT=macosx
+          cmake --build build_libromfs_generator --config Release
+          cp build_libromfs_generator/libromfs-generator "$GITHUB_WORKSPACE/libromfs-generator"
+          chmod +x "$GITHUB_WORKSPACE/libromfs-generator"
+          file "$GITHUB_WORKSPACE/libromfs-generator"
+          rm -rf build_libromfs_generator
 
       - name: Bootstrap vcpkg
         working-directory: extern/vcpkg
@@ -105,6 +117,7 @@ jobs:
             -DPLATFORM_IOS=ON \
             -DAPPLE_MOBILE_SDK_VARIANT=DEVICE \
             -DCMAKE_BUILD_TYPE=Release \
+            -DLIBROMFS_PREBUILT_GENERATOR="$GITHUB_WORKSPACE/libromfs-generator" \
             -DVCPKG_OVERLAY_TRIPLETS="$GITHUB_WORKSPACE/extern/cmake/vcpkg-triplets"
 
       - name: Build iOS application
