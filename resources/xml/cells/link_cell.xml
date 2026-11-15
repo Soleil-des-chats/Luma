@@ -34,7 +34,7 @@
             id="subtitle"
             width="auto"
             height="auto"
-            text="https://github.com/XITRIX/Moonlight-Switch"
+            text="https://github.com/Soleil-des-chats/Luma"
             fontSize="12"
             textColor="@theme/brls/header/subtitle" />
 

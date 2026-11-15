@@ -1,19 +1,19 @@
 {
     "about": {
-        "about": "Moonlight-Switch是Nintendo Switch平台的一個基於Moonlight-Common-C的第三方遊戲串流用戶端",
-        "link_gbatemp": "GbaTemp頁面",
-        "link_github": "GitHub頁面",
-        "link_patreon": "Patreon頁面",
+        "about": "Luma is a third-party game streaming client based on Moonlight-Common-C, designed for mobile and desktop",
+        "link_gbatemp": "Moonlight Game Streaming",
+        "link_github": "Luma on GitHub",
+        "link_patreon": "Original project (Moonlight-Switch)",
         "links": "連結",
         "thanks": "特別感謝",
         "thanks_1": " Rock88和他的Moonlight-NX，很多程式碼在這個應用程式中被重用",
         "thanks_2": " Natinusala，創造了Borealis",
         "thanks_3": " Moonlight團隊，沒有他們本軟體不可能出現",
         "thanks_4": " Cameron Gutman，幫助解決了LibNX的問題",
-        "thanks_5": " 參與應用程式開發的每個人",
-        "thanks_6": " 你，感謝使用我的自製軟體！",
+        "thanks_5": " XITRIX, author of the original Moonlight-Switch this app is based on",
+        "thanks_6": " You, for using Luma!",
         "title": "關於",
-        "version": "Moonlight-Switch v{} by XITRIX"
+        "version": "Luma v{} by soleil-des-chats"
     },
     "add_host": {
         "connect": "連接",
@@ -135,7 +135,7 @@
         "keys_mapping_create_new": "按+建立新佈局",
         "keys_mapping_default": "Xbox（預設）",
         "keys_mapping_new_title": "新佈局",
-        "keys_mapping_swap": "Switch（對調/和/）",
+        "keys_mapping_swap": "Swapped（對調/和/）",
         "keys_mapping_title": "按鍵映射佈局",
         "mouse": "滑鼠",
         "mouse_input": "滑鼠輸入模式",
@@ -194,5 +194,5 @@
         "favorites": "最愛",
         "settings": "設定"
     },
-    "title": "Moonlight"
+    "title": "Luma"
 }

@@ -1,19 +1,19 @@
 {
     "about": {
-        "about": "Moonlight-Switch ist ein Drittanbieter game streaming Client basierend auf Moonlight-Common-C für die Nintendo Switch",
-        "link_gbatemp": "GbaTemp",
-        "link_github": "GitHub",
-        "link_patreon": "Patreon",
+        "about": "Luma ist ein Drittanbieter-Game-Streaming-Client auf Basis von Moonlight-Common-C für Mobilgeräte und PC",
+        "link_gbatemp": "Moonlight Game Streaming",
+        "link_github": "Luma on GitHub",
+        "link_patreon": "Original project (Moonlight-Switch)",
         "links": "Links",
         "thanks": "Besonderen Dank an",
         "thanks_1": " Rock88 und sein Moonlight-NX Projekt, viel Code wurde in dieser App wiederverwendet",
         "thanks_2": " Natinusala für die Entwicklung von Borealis",
         "thanks_3": " Das Moonlight Team, ohne sie wäre Moonlight-Switch nicht möglich gewesen",
         "thanks_4": " Cameron Gutman für die Hilfe bei einem Problem mit LibNX",
-        "thanks_5": " Alle an der Entwicklung Beteiligten",
-        "thanks_6": " Dich, dafür dass du meine App nutzst!",
+        "thanks_5": " XITRIX, author of the original Moonlight-Switch this app is based on",
+        "thanks_6": " You, for using Luma!",
         "title": "Über",
-        "version": "Moonlight-Switch v{} von XITRIX"
+        "version": "Luma v{} by soleil-des-chats"
     },
     "add_host": {
         "connect": "Verbinden",
@@ -135,7 +135,7 @@
         "keys_mapping_create_new": "+ Neues Layout erstellen",
         "keys_mapping_default": "Xbox (Standard)",
         "keys_mapping_new_title": "Neues Layout",
-        "keys_mapping_swap": "Switch (/ und / vertauschen)",
+        "keys_mapping_swap": "Swapped (/ und / vertauschen)",
         "keys_mapping_title": "Tastenlayout",
         "mouse": "Maus",
         "mouse_input": "Mauseingabemodus",
@@ -194,5 +194,5 @@
         "favorites": "Favoriten",
         "settings": "Einstellungen"
     },
-    "title": "Moonlight"
+    "title": "Luma"
 }

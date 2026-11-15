@@ -1,19 +1,19 @@
 {
     "about": {
-        "about": "Moonlight-Switch - это сторонний клиент потоковой передачи игр для Nintendo Switch основанный на Moonlight-Common-C",
-        "link_gbatemp": "Страница на GbaTemp",
-        "link_github": "Страница на GitHub",
-        "link_patreon": "Страница на Patreon",
+        "about": "Luma is a third-party game streaming client based on Moonlight-Common-C, designed for mobile and desktop",
+        "link_gbatemp": "Moonlight Game Streaming",
+        "link_github": "Luma on GitHub",
+        "link_patreon": "Original project (Moonlight-Switch)",
         "links": "Ссылки",
         "thanks": "Отдельное спасибо",
         "thanks_1": " Rock88 и Moonlight-NX, много кода было переиспользовано в этом приложении",
         "thanks_2": " Natinusala за создание Borealis",
         "thanks_3": " Команде Moonlight, без них это не было бы возможным",
         "thanks_4": " Cameron Gutman за помощь в отладке проблемы с LibNX",
-        "thanks_5": " Всем, кто принимал участие в разработке данного приложения",
-        "thanks_6": " Вам, за то что используете моё Homebrew",
+        "thanks_5": " XITRIX, author of the original Moonlight-Switch this app is based on",
+        "thanks_6": " You, for using Luma!",
         "title": "О программе",
-        "version": "Moonlight-Switch v{} от XITRIX"
+        "version": "Luma v{} by soleil-des-chats"
     },
     "add_host": {
         "connect": "Подключиться",
@@ -135,7 +135,7 @@
         "keys_mapping_create_new": "+ Создать новую схему",
         "keys_mapping_default": "Xbox (По умолчанию)",
         "keys_mapping_new_title": "Новая схема",
-        "keys_mapping_swap": "Switch (/ и /)",
+        "keys_mapping_swap": "Swapped (/ и /)",
         "keys_mapping_title": "Схемы переназначения кнопок",
         "mouse": "Мышь",
         "mouse_input": "Режим ввода мышью",
@@ -194,5 +194,5 @@
         "favorites": "Избранные",
         "settings": "Настройки"
     },
-    "title": "Moonlight"
+    "title": "Luma"
 }

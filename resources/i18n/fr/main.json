@@ -1,19 +1,19 @@
 {
     "about": {
-        "about": "Moonlight-Switch est une App de streaming pour Nintendo Switch basée sur Moonlight-Common-C",
-        "link_gbatemp": "Page GbaTemp",
-        "link_github": "Page GitHub",
-        "link_patreon": "Page Patreon",
+        "about": "Luma est un client de streaming de jeux tiers basé sur Moonlight-Common-C, pensé pour mobile et PC",
+        "link_gbatemp": "Moonlight Game Streaming",
+        "link_github": "Luma on GitHub",
+        "link_patreon": "Original project (Moonlight-Switch)",
         "links": "Liens",
         "thanks": "Remerciements spéciaux",
         "thanks_1": " Rock88 et son Moonlight-NX, beaucoup de code a été réutilisé ici",
         "thanks_2": " Natinusala pour avoir créé Borealis",
         "thanks_3": " L'équipe de Moonlight, rien ne serait possible sans eux",
         "thanks_4": " Cameron Gutman pour son aide sur un problème avec LibNX",
-        "thanks_5": " Tous ceux qui développent des Apps",
-        "thanks_6": " Vous, pour utiliser cet homebrew !",
+        "thanks_5": " XITRIX, author of the original Moonlight-Switch this app is based on",
+        "thanks_6": " You, for using Luma!",
         "title": "À propos",
-        "version": "Moonlight-Switch v{} par XITRIX"
+        "version": "Luma v{} by soleil-des-chats"
     },
     "add_host": {
         "connect": "Se connecter",
@@ -135,7 +135,7 @@
         "keys_mapping_create_new": "+ Créer une nouvelle configuration",
         "keys_mapping_default": "Xbox (défaut)",
         "keys_mapping_new_title": "Ma configuration",
-        "keys_mapping_swap": "Switch (inverser / et /)",
+        "keys_mapping_swap": "Swapped (inverser / et /)",
         "keys_mapping_title": "Configuration des boutons",
         "mouse": "Souris",
         "mouse_input": "Mode souris",
@@ -194,5 +194,5 @@
         "favorites": "Favoris",
         "settings": "Paramètres"
     },
-    "title": "Moonlight"
+    "title": "Luma"
 }

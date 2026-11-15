@@ -1,19 +1,19 @@
 {
     "about": {
-        "about": "Moonlight-Switch는 닌텐도 스위치용 Moonlight-Common-C를 기반으로 하는 타사 게임 스트리밍 클라이언트입니다.",
-        "link_gbatemp": "GbaTemp 페이지",
-        "link_github": "GitHub 페이지",
-        "link_patreon": "Patreon 페이지",
+        "about": "Luma is a third-party game streaming client based on Moonlight-Common-C, designed for mobile and desktop",
+        "link_gbatemp": "Moonlight Game Streaming",
+        "link_github": "Luma on GitHub",
+        "link_patreon": "Original project (Moonlight-Switch)",
         "links": "링크",
         "thanks": "특별히 감사한 분",
         "thanks_1": " Rock88과 그의 Moonlight-NX, 이 앱에서 많은 코드가 재사용",
         "thanks_2": " Borealis를 만든 Natinusala",
         "thanks_3": " Moonlight 팀, 그들 없이는 불가능",
         "thanks_4": " LibNX 관련 문제를 해결하는 데 도움을 준 Cameron Gutman",
-        "thanks_5": " 앱 개발에 참여한 모든 사람",
-        "thanks_6": " 홈브류를 사용해 주셔서 감사합니다!",
+        "thanks_5": " XITRIX, author of the original Moonlight-Switch this app is based on",
+        "thanks_6": " You, for using Luma!",
         "title": "정보",
-        "version": "XITRIX의 Moonlight-Switch v{}"
+        "version": "Luma v{} by soleil-des-chats"
     },
     "add_host": {
         "connect": "연결",
@@ -135,7 +135,7 @@
         "keys_mapping_create_new": "+ 새로운 레이아웃 생성",
         "keys_mapping_default": "Xbox (기본)",
         "keys_mapping_new_title": "새로운 레이아웃",
-        "keys_mapping_swap": "Switch (교체 / 및 /)",
+        "keys_mapping_swap": "Swapped (교체 / 및 /)",
         "keys_mapping_title": "키 매핑 레이아웃",
         "mouse": "마우스",
         "mouse_input": "마우스 입력 모드",
@@ -194,5 +194,5 @@
         "favorites": "즐겨찾기",
         "settings": "설정"
     },
-    "title": "달빛"
+    "title": "Luma"
 }

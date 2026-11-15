@@ -1,19 +1,19 @@
 {
     "about": {
-        "about": "Moonlight-Switch es un cliente de streaming de juegos third-party basado en Moonlight-Common-C para Nintendo Switch",
-        "link_gbatemp": "Página de GbaTemp",
-        "link_github": "Página de GitHub",
-        "link_patreon": "Página de Patreon",
+        "about": "Luma es un cliente de streaming de juegos de terceros basado en Moonlight-Common-C para móvil y PC",
+        "link_gbatemp": "Moonlight Game Streaming",
+        "link_github": "Luma on GitHub",
+        "link_patreon": "Original project (Moonlight-Switch)",
         "links": "Enlaces",
         "thanks": "Agradecimientos especiales",
         "thanks_1": " Rock88 y su Moonlight-NX, mucho código fue re-usado en esta app",
         "thanks_2": " Natinusala por crear Borealis",
         "thanks_3": " Equipo Moonlight, esto no hubiese sido posible sin ellos",
         "thanks_4": " Cameron Gutman por ayudar a resolver un incidente con LibNX",
-        "thanks_5": " A cada uno involucrado en el desarrollo de la app",
-        "thanks_6": " A ti, por usar mi homebrew!",
+        "thanks_5": " XITRIX, author of the original Moonlight-Switch this app is based on",
+        "thanks_6": " You, for using Luma!",
         "title": "Acerca de",
-        "version": "Moonlight-Switch v{} by XITRIX"
+        "version": "Luma v{} by soleil-des-chats"
     },
     "add_host": {
         "connect": "Añadir",
@@ -135,7 +135,7 @@
         "keys_mapping_create_new": "+ Crear nuevo diseño",
         "keys_mapping_default": "Xbox (Por defecto)",
         "keys_mapping_new_title": "Nuevo diseño",
-        "keys_mapping_swap": "Switch (Intercambiar / y /)",
+        "keys_mapping_swap": "Swapped (Intercambiar / y /)",
         "keys_mapping_title": "Diseño de asignación de botones",
         "mouse": "Ratón",
         "mouse_input": "Modo de entrada de ratón",
@@ -194,5 +194,5 @@
         "favorites": "Favoritos",
         "settings": "Ajustes"
     },
-    "title": "Moonlight"
+    "title": "Luma"
 }
