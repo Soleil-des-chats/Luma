@@ -17,8 +17,8 @@
     <binary>Moonlight</binary>
     <binary>moonlight-switch</binary>
   </provides>
-  <url type="homepage">https://github.com/XITRIX/Moonlight-Switch</url>
-  <url type="bugtracker">https://github.com/XITRIX/Moonlight-Switch/issues</url>
-  <developer_name>XITRIX</developer_name>
+  <url type="homepage">https://github.com/Soleil-des-chats/Luma</url>
+  <url type="bugtracker">https://github.com/Soleil-des-chats/Luma/issues</url>
+  <developer_name>soleil-des-chats</developer_name>
   <content_rating type="oars-1.1"/>
 </component>

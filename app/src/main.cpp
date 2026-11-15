@@ -1,11 +1,11 @@
 //
 //  main.cpp
-//  Moonlight
+//  Luma
 //
-//  Created by XITRIX on 26.05.2021.
+//  Based on the original Moonlight-Switch by XITRIX (2021).
+//  Maintained by soleil-des-chats.
 //
 
-// Switch include only necessary for demo videos recording
 #ifdef __SWITCH__
 #include <switch.h>
 #endif
@@ -29,6 +29,7 @@ unsigned int sceLibcHeapSize             = 24 * 1024 * 1024;
 #include "host_tab.hpp"
 #include "link_cell.hpp"
 #include "main_activity.hpp"
+#include "luma_theme.hpp"
 #include "main_tabs_view.hpp"
 #include "settings_tab.hpp"
 #include "views/boolean_slider_cell.hpp"
@@ -91,7 +92,6 @@ void preferSwitchCore(int ordinal) {
 #endif
 
 int main(int argc, char* argv[]) {
-    // Enable recording for Twitter memes
 #ifdef __SWITCH__
     appletInitializeGamePlayRecording();
     appletSetWirelessPriorityMode(AppletWirelessPriorityMode_OptimizedForWlan);
@@ -125,6 +125,12 @@ int main(int argc, char* argv[]) {
 
     registerDeepLinkHandler();
 
+    // Pick a comfortable base resolution for the device (phones/tablets).
+    luma::configureViewport();
+
+    // Apply the Luma look (palette, rounded focus ring, touch-friendly sizes)
+    luma::applyTheme();
+
 #if defined(PLATFORM_VISIONOS)
     brls::Application::setMaximumUIScale(1.0f);
 #endif
@@ -134,7 +140,7 @@ int main(int argc, char* argv[]) {
 
     brls::Application::createWindow("title"_i18n);
 
-    auto home = Application::getPlatform()->getHomeDirectory("Moonlight-Switch");
+    auto home = Application::getPlatform()->getHomeDirectory("Luma");
     Settings::instance().set_working_dir(home);
     Settings::instance().set_launch_path(argc > 0 ? argv[0] : "");
     brls::Logger::info("Working dir, {}", home);
@@ -153,16 +159,6 @@ int main(int argc, char* argv[]) {
     brls::Application::registerXMLView("AddHostTab", AddHostTab::create);
     brls::Application::registerXMLView("SettingsTab", SettingsTab::create);
 
-    // Add custom values to the theme
-    brls::Theme::getLightTheme().addColor("captioned_image/caption",
-                                   nvgRGB(2, 176, 183));
-    brls::Theme::getDarkTheme().addColor("captioned_image/caption",
-                                  nvgRGB(51, 186, 227));
-
-    // Add custom values to the style
-    brls::getStyle().addMetric("about/padding_top_bottom", 50);
-    brls::getStyle().addMetric("about/padding_sides", 75);
-    brls::getStyle().addMetric("about/description_margin", 50);
 
     // Create and push the main activity to the stack if cannot run game from arguments
     if (!startFromArgs(argc, argv)) {

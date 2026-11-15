@@ -23,7 +23,7 @@ AboutTab::AboutTab() {
     std::string subtitle = fmt::format(fmt::runtime("about/version"_i18n), APP_VERSION);
     versionLabel->setSubtitle(subtitle);
 
-    std::string githubLink = "https://github.com/XITRIX/Moonlight-Switch";
+    std::string githubLink = "https://github.com/Soleil-des-chats/Luma";
     github->addGestureRecognizer(new TapGestureRecognizer(github));
     github->title->setText("about/link_github"_i18n);
     github->subtitle->setText(githubLink);
@@ -33,25 +33,23 @@ AboutTab::AboutTab() {
         return true;
     });
 
-    std::string patreonLink = "https://www.patreon.com/xitrix";
+    std::string originalLink = "https://github.com/XITRIX/Moonlight-Switch";
     patreon->addGestureRecognizer(new TapGestureRecognizer(patreon));
     patreon->title->setText("about/link_patreon"_i18n);
-    patreon->subtitle->setText(patreonLink);
-    patreon->image->setImageFromRes("img/links/patreon.png");
-    patreon->registerClickAction([patreonLink](View* view) {
-        openWebpage(patreonLink);
+    patreon->subtitle->setText(originalLink);
+    patreon->image->setImageFromRes("img/links/github" + themePart + ".png");
+    patreon->registerClickAction([originalLink](View* view) {
+        openWebpage(originalLink);
         return true;
     });
 
-    std::string gbatempLink =
-        "https://gbatemp.net/threads/"
-        "moonlight-switch-nvidia-game-stream-client.591408/";
+    std::string moonlightLink = "https://moonlight-stream.org";
     gbatemp->addGestureRecognizer(new TapGestureRecognizer(gbatemp));
     gbatemp->title->setText("about/link_gbatemp"_i18n);
-    gbatemp->subtitle->setText(gbatempLink);
-    gbatemp->image->setImageFromRes("img/links/gbatemp.png");
-    gbatemp->registerClickAction([gbatempLink](View* view) {
-        openWebpage(gbatempLink);
+    gbatemp->subtitle->setText(moonlightLink);
+    gbatemp->image->setImageFromRes("img/moonlight_96.png");
+    gbatemp->registerClickAction([moonlightLink](View* view) {
+        openWebpage(moonlightLink);
         return true;
     });
 }

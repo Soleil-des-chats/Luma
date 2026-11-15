@@ -141,4 +141,4 @@ class DKVideoRenderer : public IVideoRenderer {
     VideoRenderStats m_video_render_stats_cache = {};
 };
 
-#endif // __SWITCH__
+#endif

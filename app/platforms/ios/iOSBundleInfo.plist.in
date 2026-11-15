@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>Luma</string>
 	<key>CFBundleExecutable</key>
 	<string>${MACOSX_BUNDLE_EXECUTABLE_NAME}</string>
 	<key>CFBundleGetInfoString</key>
@@ -33,7 +35,7 @@
 			<string>${MACOSX_BUNDLE_GUI_IDENTIFIER}</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>moonlightswitch</string>
+				<string>luma</string>
 			</array>
 		</dict>
 	</array>
@@ -59,9 +61,9 @@
         </dict>
     </dict>
     <key>NSBluetoothPeripheralUsageDescription</key>
-    <string>MyApp would like to remain connected to nearby bluetooth Game Controllers and Game Pads even when you're not using the app.</string>
+    <string>Luma would like to remain connected to nearby bluetooth Game Controllers and Game Pads even when you're not using the app.</string>
     <key>NSBluetoothAlwaysUsageDescription</key>
-    <string>MyApp would like to remain connected to nearby bluetooth Game Controllers and Game Pads even when you're not using the app.</string>
+    <string>Luma would like to remain connected to nearby bluetooth Game Controllers and Game Pads even when you're not using the app.</string>
     <key>CADisableMinimumFrameDurationOnPhone</key>
     <true/>
     <key>NSBonjourServices</key>
@@ -70,6 +72,8 @@
     </array>
 	<key>UIRequiresFullScreen</key>
 	<true/>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 	<key>UIStatusBarHidden</key>
 	<true/>
 	<key>UISupportedInterfaceOrientations</key>

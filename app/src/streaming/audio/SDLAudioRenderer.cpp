@@ -77,7 +77,7 @@ int SDLAudioRenderer::init(int audio_configuration,
         have = want;
     }
 #else
-    // Latest SDL2 Switch port broke audio for lower samples
+    // Lower sample counts can break audio on some SDL2 backends
 #if defined(PLATFORM_SWITCH)
     wantSamples = 4096;
     want.samples = 4096;

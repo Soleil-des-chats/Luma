@@ -10,7 +10,6 @@
 #include <utility>
 #include "button_selecting_dialog.hpp"
 
-//#include <borealis/platforms/switch/swkbd.hpp>
 
 using namespace brls;
 

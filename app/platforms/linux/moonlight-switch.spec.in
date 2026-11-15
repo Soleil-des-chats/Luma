@@ -3,7 +3,7 @@ Version:        @RPM_VERSION@
 Release:        1%{?dist}
 Summary:        Controller-friendly Moonlight game-streaming client
 License:        GPL-3.0-or-later
-URL:            https://github.com/XITRIX/Moonlight-Switch
+URL:            https://github.com/Soleil-des-chats/Luma
 Source0:        moonlight-switch-bundle.tar.gz
 BuildArch:      @RPM_ARCH@
 Requires:       glibc, libglvnd-egl, libglvnd-gles, libva, libdrm
@@ -41,5 +41,5 @@ install -Dpm0644 \
 %{_datadir}/metainfo/ru.xitrix.Moonlight.metainfo.xml
 
 %changelog
-* Sun Jul 26 2026 XITRIX - @RPM_VERSION@-1
+* Sun Jul 26 2026 soleil-des-chats - @RPM_VERSION@-1
 - Automated portable Linux package

@@ -1137,73 +1137,73 @@
         }
       }
     },
-    "Get a moonlightswitch:// launch URL for a Moonlight game.": {
+    "Get a luma:// launch URL for a Moonlight game.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Get a moonlightswitch:// launch URL for a Moonlight game."
+            "value": "Get a luma:// launch URL for a Moonlight game."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Eine moonlightswitch://-Start-URL für ein Moonlight-Spiel abrufen."
+            "value": "Eine luma://-Start-URL für ein Moonlight-Spiel abrufen."
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Obtiene una URL moonlightswitch:// para iniciar un juego de Moonlight."
+            "value": "Obtiene una URL luma:// para iniciar un juego de Moonlight."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Obtenir une URL moonlightswitch:// de lancement pour un jeu Moonlight."
+            "value": "Obtenir une URL luma:// de lancement pour un jeu Moonlight."
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ottiene un URL moonlightswitch:// di avvio per un gioco Moonlight."
+            "value": "Ottiene un URL luma:// di avvio per un gioco Moonlight."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Moonlightゲーム用のmoonlightswitch://起動URLを取得します。"
+            "value": "Moonlightゲーム用のluma://起動URLを取得します。"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Moonlight 게임용 moonlightswitch:// 실행 URL을 가져옵니다."
+            "value": "Moonlight 게임용 luma:// 실행 URL을 가져옵니다."
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Obtém uma URL moonlightswitch:// para iniciar um jogo do Moonlight."
+            "value": "Obtém uma URL luma:// para iniciar um jogo do Moonlight."
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Получает URL запуска moonlightswitch:// для игры Moonlight."
+            "value": "Получает URL запуска luma:// для игры Moonlight."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "获取 Moonlight 游戏的 moonlightswitch:// 启动 URL。"
+            "value": "获取 Moonlight 游戏的 luma:// 启动 URL。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "取得 Moonlight 遊戲的 moonlightswitch:// 啟動 URL。"
+            "value": "取得 Moonlight 遊戲的 luma:// 啟動 URL。"
           }
         }
       }

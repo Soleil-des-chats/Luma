@@ -15,7 +15,7 @@ private enum MoonlightShortcutURL {
         }
 
         var components = URLComponents()
-        components.scheme = "moonlightswitch"
+        components.scheme = "luma"
         components.host = "launch"
         components.queryItems = [
             URLQueryItem(name: isMACAddress(trimmedHost) ? "host" : "ip", value: trimmedHost),
@@ -358,7 +358,7 @@ struct MoonlightGetGameDetailIntent: AppIntent {
 @available(iOS 16.0, visionOS 1.0, *)
 struct MoonlightGetGameDeepLinkIntent: AppIntent {
     static var title: LocalizedStringResource = "Get Game Deep Link"
-    static var description = IntentDescription("Get a moonlightswitch:// launch URL for a Moonlight game.")
+    static var description = IntentDescription("Get a luma:// launch URL for a Moonlight game.")
     static var openAppWhenRun = false
     static var authenticationPolicy: IntentAuthenticationPolicy = .alwaysAllowed
 

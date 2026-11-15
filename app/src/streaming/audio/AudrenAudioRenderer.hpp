@@ -47,4 +47,4 @@ class AudrenAudioRenderer : public IAudioRenderer {
     const int m_latency = 5;
 };
 
-#endif // __SWITCH__
+#endif

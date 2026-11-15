@@ -32,7 +32,6 @@
 #if defined(__SWITCH__)
 #include <switch.h>
 
-// TODO: Remove when presented in LibNX
 struct ipv6_mreq {
 	struct in6_addr ipv6mr_multiaddr;
 	unsigned int    ipv6mr_interface;

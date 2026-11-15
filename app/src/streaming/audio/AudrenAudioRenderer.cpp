@@ -268,4 +268,4 @@ void AudrenAudioRenderer::write_audio(const void* buf, size_t size) {
     }
 }
 
-#endif //__SWITCH__
+#endif

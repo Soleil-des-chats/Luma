@@ -26,7 +26,7 @@ bool canStartApp(int argc, char** argv);
 
 namespace {
 
-constexpr std::string_view DEEP_LINK_SCHEME = "moonlightswitch";
+constexpr std::string_view DEEP_LINK_SCHEME = "luma";
 
 struct LaunchRequest {
     std::string mac;

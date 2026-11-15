@@ -46,14 +46,6 @@ AppListView::AppListView(const Host& host) : host(host) {
     registerAction("", brls::ControllerButton::BUTTON_BACK, closeCurrentAction,
                    true);
 
-    // #ifdef __SWITCH__
-    //     registerAction("", brls::ControllerButton::BUTTON_LB, [](View* view)
-    //     {
-    //         appletPerformSystemButtonPressingIfInFocus(AppletSystemButtonType_HomeButtonLongPressing);
-    //         return true;
-    //     }, true);
-    // #endif
-
     registerAction("app_list/reload_app_list"_i18n, BUTTON_X,
                    [this](View* view) {
                        this->updateAppList();
